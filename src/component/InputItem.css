@@ -1,0 +1,46 @@
+.item-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: teal;
+    height: 100px;
+    color: white;
+    
+
+}
+
+button {
+    padding: 5px;
+    color: black;
+    background-color: white;
+    border: none;
+    height: 50px;
+    width: 100px;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-weight: bolder;
+    cursor: pointer;
+
+}
+
+#length {
+    color: wheat;
+    font-size: 13px;
+    position: relative;
+    bottom: 30px;
+}
+
+
+
+
+[type="text"] {
+    background-color: white;
+    height: 40px;
+    border: none;
+    outline: none;
+    margin-top: 24px;
+    border-radius: 10px;
+}
+
+[type="text"] ::placeholder {
+    color: white;
+}
